@@ -1,26 +1,31 @@
-# SLOW BEAUTY — 슬로우뷰티
+# SLOW BEAUTY | GitHub Pages SIGNATURE EDITION
 
-안양 슬로우뷰티 홍보용 GitHub Pages 정적 웹사이트. 별도 빌드, 서버, 데이터베이스 없이 작동합니다.
+슬로우뷰티의 정적 GitHub Pages 사이트입니다.
 
-## GitHub Pages 게시 방법
+## 배포
+1. ZIP 압축을 풀고 **index.html, style.css, script.js, assets/** 를 GitHub 리포지토리 최상위 폴더에 업로드합니다.
+2. Settings → Pages → Build and deployment → Deploy from a branch → `main` / `(root)` → Save.
+3. 새 주소 접속 후 입장/음악/모바일 메뉴/카카오톡/카카오맵 링크를 확인합니다.
 
-1. GitHub에서 새 **Public** 저장소를 만듭니다.
-2. 이 ZIP 압축을 푼 뒤 **index.html, style.css, script.js, assets 폴더**를 저장소의 최상위(root)에 업로드합니다. ZIP 자체를 업로드하면 안 됩니다.
-3. 저장소 **Settings → Pages → Build and deployment → Deploy from a branch**를 선택합니다.
-4. **Branch: main / Folder: /(root)**를 선택하고 Save를 누릅니다.
-5. GitHub Pages에 표시되는 주소로 접속하면 됩니다.
+## 콘텐츠
+- 상담: https://pf.kakao.com/_xdNhxfn
+- 위치: https://place.map.kakao.com/1049008587
+- 전화: 010-3054-1397
+- 자연눈썹 180,000원 / 콤보눈썹 200,000원 / 입술문신 280,000원
+- 매장 및 로고 사진 3장: 사용자가 제공한 이미지
+- 음악: 사용자가 직접 업로드한 M83 – Midnight City 음원 (`assets/background-music.mp3`)
 
-## 수정 위치
-- 메뉴 가격/문구/주소/전화번호: `index.html`
-- 디자인/모바일 배치/애니메이션: `style.css`
-- 시작 화면, 갤러리 확대, `asa` 이스터에그: `script.js`
-- 사진: `assets/store-sign.png`, `assets/brand-logo.png`, `assets/store-entrance.png`
+## 음악 및 입장
+- 처음 방문 시 '음악과 함께 입장'을 누르면 18% 음량까지 2.2초 페이드 인, 자동 반복
+- '조용히 입장'은 소리 없이 진입
+- 좌측 하단 음악 켜기/끄기 및 볼륨 슬라이더 (0~40%)
+- 브라우저 자동재생 제한을 준수하기 위해 버튼을 눌러야 음악이 재생됨
 
-## 참고
-- 전화 버튼은 휴대폰에서 전화 앱을 엽니다. 실제 예약 확정·예약 캘린더 기능은 포함되지 않습니다.
-- 카카오맵 버튼은 매장 장소 URL을 새 탭으로 엽니다.
-- 영업시간 및 후기처럼 확인되지 않은 정보는 게시하지 않았습니다.
-- 페이지의 '시술 메뉴 설명'은 일반적인 홍보 표현이며 시술의 결과를 보장하지 않습니다.
-- 마케팅 활용 전에 매장 운영자에게 시술 정보·가격·사진 사용 및 문구 최종 확인을 받으세요.
-- Google Fonts는 인터넷 연결이 있을 때 표시되며, 접속이 안 될 때는 기기 기본 글꼴로 대체됩니다.
-- 숨겨진 축하 이벤트: 키보드에서 `asa`를 연속 입력하면 대형 메시지가 나타납니다.
+## 숨겨진 기능
+키보드로 `asa` 를 입력하면 축하 메시지와 컨페티 애니메이션이 나옵니다.
+
+## 저작권 유의
+M83 – Midnight City는 상업 음원으로, **사용자가 파일을 제공한 사실과 웹사이트 공개/상업적 이용 허가가 있는 것은 별개입니다.**
+웹사이트에 공개 업로드하기 전에 음원 저작권자/권리자로부터 복제·전송·공중송신 등 관련 이용 허락을 확인하세요. 허락이 없는 경우 `assets/background-music.mp3` 를 권리를 확보한 대체 음원으로 교체하세요.
+
+이 프로젝트는 백엔드·예약 데이터 저장 기능 없이 외부 카카오톡 상담 페이지로 연결됩니다.
